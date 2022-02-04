@@ -19,6 +19,10 @@ The two files accompanying the main program, MyCourses.txt and CompletedCourses.
   - Switches the selected course with the hovered course if the hovered course is highlighted pink (meaning there are no prerequisite conflicts) 
 - Delete: Clears the search field
 - Shift P: Prints every course's prerequisites and concurrent prerequisites to the console
+- Up: Increments the maximum number of courses per semester (default is 16)
+- Down: Decrements the maximum number of courses per semester
+- Right: Increments the maximum number of semesters (default is 8)
+- Left: Decrements the maximum number of semesters
 
 ## Mouse Controls
 - Left Click:
