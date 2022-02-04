@@ -10,8 +10,8 @@ H = 1080
 
 display = pg.display.set_mode((0,0), pg.FULLSCREEN)
 
-W,H = 1500,800
-display = pg.display.set_mode((W,H))
+# W,H = 1500,800
+# display = pg.display.set_mode((W,H))
 
 pg.display.set_caption(' ')
 
@@ -344,14 +344,14 @@ while True:
                 for c in CL:
                     c.w = DX
                 genSchedule()
-            elif event.key == pg.K_UP:
+            elif event.key == pg.K_DOWN:
                 max_courses -= 1
                 if genSchedule():
                     for c in CL:
                         c.h = int(c.hours*(H/max_courses))
                 else:
                     max_courses += 1
-            elif event.key == pg.K_DOWN:
+            elif event.key == pg.K_UP:
                 max_courses += 1
                 for c in CL:
                     c.h = int(c.hours*(H/max_courses))
