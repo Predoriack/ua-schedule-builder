@@ -35,5 +35,5 @@ The two files accompanying the main program, MyCourses.txt and CompletedCourses.
   - Toggles the lock on the selected semester column
 - Scroll Wheel: scrolls through course results in the search column or any information block being displayed
 
-## Requiremed Libraries
+## Required Libraries
 - pygame
